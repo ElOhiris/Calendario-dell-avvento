@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+.btn-start {
+    background-color: #b7d2fa;
+    color: rgb(136, 3, 25);
+    border: 2px solid #0d3e86;
+    border-radius: 15px;
+    margin: 15px auto;
+    display: block;
+    width: 10rem;
+    height: 2rem;
+}
+
+.container {
+    width: 800px;
+    height: 900px;
+    border: 5px solid rgb(216, 11, 11);
+    margin: 15px auto;
+    color: aliceblue;
+    background-image: url("./grafica/copertina.jpg");
+    background-size: cover;
+    box-shadow: 6px 6px 20px rgb(214, 13, 13);
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+        "door9 door6 door11 door7"
+        "door3 door20 door16 door2"
+        "door14 door12 door19 door15"
+        "door22 door1 door5 door23"
+        "door17 door10 door24 door21"
+        "door8 door18 door4 door13";
+}
+
+.image {
+    
+    background-size: cover;
+    background-position: center;
+}
+
+.text{
+    height: 100%;
+    width: 100%;
+    color:rgb(2, 132, 247)
+    padding: 10px;
+    border: 2px solid aliceblue;
+    transition: opacity 2.5s;
+
+}
